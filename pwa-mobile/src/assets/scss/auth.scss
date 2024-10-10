@@ -1,0 +1,98 @@
+.auth {
+  padding: 84px 18px;
+
+  &__title {
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  &__text {
+    font-size: 16px;
+  }
+
+  &__btn-group {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-block: 40px;
+  }
+
+  &__btn {
+    height: 48px;
+    position: relative;
+  }
+
+  .v-btn__prepend i {
+    position: absolute;
+    left: 20px;
+  }
+
+  &__extra-links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .divider {
+      content: '';
+      width: 4px;
+      height: 4px;
+      border-radius: 2px;
+    }
+  }
+
+  &__credits,
+  &__version {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  &__version {
+    bottom: 5px;
+    font-size: 10px;
+  }
+
+    &__method-icon {
+    width: 100px;
+    height: 100px;
+    margin: 16px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #e3eff9;
+  }
+
+  &__method-name {
+    font-weight: 600;
+  }
+
+  &__method-text,
+  &__sent-message,
+  &__counter {
+    margin: 16px 0;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  &__send-code {
+    width: 144px;
+    margin-inline: auto;
+
+    .code-input input {
+      text-align: center !important;
+      letter-spacing: 20px !important;
+    }
+  }
+
+  &__code-success {
+    font-size: 15px;
+  }
+}

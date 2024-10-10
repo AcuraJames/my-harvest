@@ -1,0 +1,307 @@
+@import "fonts.scss";
+
+a {
+  text-decoration: none;
+  color: #0075d7;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.header-content {
+  color: #1b1c1e;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.data-input {
+  &__title {
+    color: #1b1c1e;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 1;
+    padding: 12px 0;
+  }
+
+  &__description {
+    color: var(--v-theme-grey);
+    font-size: 18px;
+    font-weight: 800;
+  }
+
+  &__row {
+    padding-top: 8px;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  &__icon {
+    margin-right: 8px;
+    width: 60px;
+    height: 60px;
+    flex: none;
+  }
+
+  &__prepend-icon {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__field {
+    width: 100%;
+  }
+}
+
+.app-version {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.footer-btn {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 24px 16px;
+  background: #ffffff;
+  display: flex;
+}
+
+.v-combobox__selection-text {
+  text-transform: uppercase;
+}
+
+.v-combobox__content .v-list-item-title {
+  font-weight: 600;
+}
+
+.v-combobox__mask {
+  background-color: unset !important;
+  color: #0075d7;
+}
+
+.v-field__input input {
+  font-size: 21px;
+  color: #232426;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.v-input__control {
+  border-radius: 12px;
+  background: #f4f4f4;
+
+  input {
+    font-size: 21px;
+    color: #232426;
+    font-weight: 600;
+    line-height: 1;
+  }
+}
+
+.v-field__outline__end,
+.v-field__outline__start {
+  border: none !important;
+}
+
+.v-field--variant-solo {
+  border-radius: 12px !important;
+  background: #fff !important;
+  box-shadow: 0px 0px 8px 0px rgba(35, 33, 118, 0.22) !important;
+}
+
+.v-input__details {
+  padding-left: 0 !important;
+}
+
+.v-messages__message {
+  color: #c80000 !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+}
+
+.v-input--error {
+  .v-input__control {
+    position: relative;
+    border-radius: 12px;
+    border: 2px solid #c80000 !important;
+  }
+}
+
+.v-card {
+  border-radius: 16px !important;
+}
+
+.harvest-check {
+  &__row {
+    height: 50px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__col {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+
+  &__text {
+    font-size: 21px;
+    color: #1b1c1e;
+    font-weight: 800;
+    margin-right: 12px;
+  }
+
+  &__descr {
+    font-size: 21px;
+    font-weight: 600;
+    color: #232426;
+  }
+}
+
+.v-field--variant-solo,
+.v-field--variant-solo-filled {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.data-input__field {
+  .v-select__selection-text {
+    color: #0b0c0d;
+    font-size: 21px;
+    font-weight: 600;
+  }
+}
+
+.v-input--disabled {
+  .v-input__control {
+    background-color: #232426;
+  }
+
+  .v-field--disabled {
+    opacity: 1;
+  }
+
+  input {
+    color: #fff !important;
+  }
+
+  path {
+    fill: #fff;
+  }
+}
+
+.v-input--disabled.v-input--error {
+  .v-input__control {
+    background-color: #c80000 !important;
+  }
+}
+
+.v-checkbox {
+  .v-input__control {
+    background: #ffffff;
+  }
+}
+
+.v-alert {
+  border-radius: 8px;
+  background: #bee2ff;
+  margin: 0 14px;
+  display: flex;
+  align-items: center;
+
+  &__content {
+    color: #0075d7;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: normal;
+    padding-right: 16px;
+  }
+
+  &__prepend {
+    margin: 5px 8px 0 0 !important;
+  }
+}
+
+.infographic {
+  &__wrap {
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0px 0px 8px 0px rgba(35, 33, 118, 0.22);
+  }
+
+  &__head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  &__head-btn {
+    width: 24px;
+    height: 24px;
+    flex: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__head-descr {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__head-title {
+    color: #232426;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  &__head-text {
+    color: #232426;
+    font-size: 11px;
+    font-weight: 600;
+  }
+}
+
+.progress {
+  &__head {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 4px;
+  }
+
+  &__count {
+    color: #232426;
+    font-size: 22px;
+    font-weight: 600;
+    margin-right: 12px;
+    line-height: 1.2;
+  }
+
+  &__name {
+    color: #545454;
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+
+.v-progress-linear {
+  height: 12px !important;
+  border-radius: 12px !important;
+}
+
+.v-card__loader,
+.v-field__loader {
+  display: none !important;
+}

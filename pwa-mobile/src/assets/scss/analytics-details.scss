@@ -1,0 +1,21 @@
+.analytics-details {
+  &__breadcrumbs {
+    margin-bottom: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #232426;
+
+    span {
+      display: inline-flex;
+      align-items: center;
+    }
+    span:not(:last-child):after {
+      content: "";
+      width: 5px;
+      height: 5px;
+      margin-inline: 4px;
+      border-radius: 50%;
+      background-color: #d1d1d1;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.analytics-head {
+  margin-bottom: 16px;
+  font-weight: 700;
+
+  &__date {
+    margin-left: 8px;
+    color: #0075d7;
+  }
+
+  &__close {
+    float: right;
+    color: #0075d7;
+  }
+}
